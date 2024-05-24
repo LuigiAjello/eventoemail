@@ -1,0 +1,5 @@
+ipyKernel 
+numpy
+pandas
+openpyxl
+python-dotenv
