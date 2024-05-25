@@ -20,6 +20,5 @@ dict_fornecedor = {
     17: {'nome': 'Porco no Rolete', 'vendas': 4000},
     18: {'nome': 'Lanche Seja Feliz', 'vendas': 8000}
     }
-
 df = pd.DataFrame.from_dict(dict_fornecedor, orient='index')
 
