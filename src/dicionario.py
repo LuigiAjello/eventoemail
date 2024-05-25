@@ -22,4 +22,4 @@ dict_fornecedor = {
     }
 
 df = pd.DataFrame.from_dict(dict_fornecedor, orient='index')
-print(df)
+
