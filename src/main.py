@@ -1,9 +1,14 @@
-import pandas as pd
-from dicionario import df 
-from Modulofuncoes import converter_nomes_minusculos
-df_convertido = converter_nomes_minusculos(df)
-from Modulofuncoes import formatar_nomes
-df_convertido = formatar_nomes (df_convertido)
-from Modulofuncoes import adicionar_repasse 
-df_convertido = adicionar_repasse (df_convertido)
-print(df_convertido)
+from dicionario import dict_fornecedor , novos_fornecedores
+from Modulofuncoes import Tratar_df
+
+df_final = Tratar_df(dict_fornecedor)
+from dicionario import dict_fornecedor
+from Modulofuncoes import Tratar_df, adicionar_novos_fornecedores
+
+
+df_original = Tratar_df(dict_fornecedor)
+
+df_final = adicionar_novos_fornecedores(df_original, novos_fornecedores)
+
+print(df_final)
+print(df_final)

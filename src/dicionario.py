@@ -20,5 +20,9 @@ dict_fornecedor = {
     17: {'nome': 'Porco no Rolete', 'vendas': 4000},
     18: {'nome': 'Lanche Seja Feliz', 'vendas': 8000}
     }
-df = pd.DataFrame.from_dict(dict_fornecedor, orient='index')
+novos_fornecedores = {
+    19: {'nome': 'Churrasco do Zé', 'vendas': 12000},
+    20: {'nome': 'Tapioca da Ana', 'vendas': 7000}
+}
+
 
